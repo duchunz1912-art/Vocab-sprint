@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#28358d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Vocab Sprint">
+<link rel="manifest" href="manifest.webmanifest">
+<title>Vocab Sprint — English in 30 days</title>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#18213a;--muted:#68738b;--line:#e1e6f0;--blue:#3949ab;--pale:#eef0ff;--green:#e6f7ed;--red:#fff0f0}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding-bottom:env(safe-area-inset-bottom)}button,input,select{font:inherit}button{min-height:46px;border:0;border-radius:13px;padding:11px 14px;font-weight:750;touch-action:manipulation;cursor:pointer;-webkit-tap-highlight-color:transparent}button:active{opacity:.82;transform:scale(.99)}button:disabled{opacity:.45}.app{max-width:900px;margin:auto;padding:16px 13px 35px}.top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:2px 0 15px}.brand{display:flex;align-items:center;gap:10px}.logo{display:grid;place-items:center;background:var(--blue);color:white;width:42px;height:42px;border-radius:14px;font-weight:900}.brand h1{font-size:19px;margin:0}.brand p{font-size:12px;color:var(--muted);margin:2px 0 0}.hero{background:linear-gradient(125deg,#202b72,#4a5ce1);color:#fff;padding:21px;border-radius:22px;margin-bottom:14px}.hero h2{font-size:25px;line-height:1.15;margin:0 0 8px}.hero p{font-size:14px;color:#e2e7ff;margin:0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:15px}.stat{padding:10px;background:#ffffff17;border:1px solid #ffffff24;border-radius:13px}.stat strong{display:block;font-size:20px}.stat span{font-size:11px;color:#e2e7ff}.panel{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px;margin-bottom:13px;box-shadow:0 7px 25px #26396c0a}.panel h3{margin:0;font-size:17px}.muted{color:var(--muted);font-size:13px;margin:4px 0 12px}.controls{display:flex;gap:8px;margin:12px 0}.controls input,.controls select{width:100%;min-width:0;border:1px solid var(--line);background:#fff;border-radius:12px;padding:11px;color:var(--ink)}.tabs{display:flex;gap:7px;overflow:auto;margin:10px 0 13px}.tab{white-space:nowrap;background:#f0f2f8;color:#58627a;min-height:42px;padding:9px 12px}.tab.active,.primary{background:var(--blue);color:white}.flash{border:1px solid var(--line);background:linear-gradient(145deg,#fff,#f7f8ff);border-radius:18px;min-height:270px;padding:18px 13px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;cursor:pointer}.counter{position:absolute;left:13px;top:12px;color:var(--muted);font-size:12px}.word{font-size:clamp(30px,8vw,42px);font-weight:850;letter-spacing:-.04em;margin:13px 0 4px;overflow-wrap:anywhere}.ipa{color:var(--muted);font-size:14px}.meaning{font-size:21px;font-weight:800;margin:13px 0 7px}.phrase{font-size:13px;color:var(--blue);margin-top:8px}.example{font-size:14px;max-width:460px;color:#4f5b72;margin-top:8px}.actions{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}.secondary{background:var(--pale);color:var(--blue)}.again{background:var(--red);color:#a43b3b}.known{background:var(--green);color:#147147}.ghost{background:#eff1f6;color:#4d5870}.wide{width:100%}.hidden{display:none!important}.progress{height:8px;background:#edf0f6;border-radius:9px;overflow:hidden;margin:12px 0 6px}.bar{height:100%;width:0;background:var(--blue)}.list{display:grid;gap:8px}.item{padding:12px;border:1px solid var(--line);border-radius:13px}.item strong{font-size:17px}.item .itemmeta{font-size:13px;color:var(--muted)}.quizbox{background:#f8f9fd;border:1px solid var(--line);border-radius:15px;padding:13px}.options{display:grid;gap:8px;margin:12px 0}.option{background:white;border:1px solid var(--line);text-align:left;min-height:48px}.option.correct{background:#e6f7ed;border-color:#8bcda9}.option.wrong{background:#fff0f0;border-color:#e5a4a4}.notice{font-size:12px;color:#6b581b;background:#fff8e6;border:1px solid #f0dfaa;border-radius:12px;padding:11px;margin-top:12px}.foot{text-align:center;font-size:11px;color:var(--muted);padding:8px}.badge{font-size:11px;border:1px solid var(--line);border-radius:99px;padding:6px 9px;color:var(--muted)}.topbuttons{display:flex;gap:6px;align-items:center}.tiny{min-height:40px;padding:8px 10px}
+@media(min-width:720px){.layout{display:grid;grid-template-columns:1.15fr .85fr;gap:13px;align-items:start}.hero h2{font-size:30px}.actions{grid-template-columns:repeat(4,1fr)}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top"><div class="brand"><div class="logo">V</div><div><h1>Vocab Sprint</h1><p>Flashcards · Quiz · Ôn tập thông minh</p></div></div><div class="topbuttons"><button class="ghost tiny" id="soundTest" aria-label="Thử phát âm">🔊</button></div></header>
+<section class="hero"><h2>Học ít một, nhớ lâu hơn.</h2><p>Học theo phiên ngắn, tự kiểm tra và ôn lại đúng lúc. Dùng nút phát âm để nghe giọng đọc có sẵn trên iPhone.</p><div class="stats"><div class="stat"><strong id="learned">0</strong><span>Đã nhớ</span></div><div class="stat"><strong id="due">0</strong><span>Cần ôn</span></div><div class="stat"><strong id="streak">0</strong><span>Ngày liên tiếp</span></div></div></section>
+<div class="layout"><main>
+<section class="panel"><h3>Học từ vựng</h3><p class="muted">Chạm vào thẻ hoặc nút để hiện nghĩa. Dùng “Đã nhớ” / “Cần ôn” để lên lịch ôn.</p>
+<div class="controls"><select id="day"><option value="all">Tất cả từ</option></select><input id="search" type="search" placeholder="Tìm từ hoặc nghĩa…" autocomplete="off"></div>
+<div class="tabs"><button class="tab active" data-mode="learn">Flashcard</button><button class="tab" data-mode="review">Cần ôn</button><button class="tab" data-mode="list">Danh sách</button></div>
+<div id="flashArea"><div class="flash" id="flash" role="button" tabindex="0" aria-label="Chạm để lật thẻ"><div class="counter" id="counter">1 / 50</div><div class="word" id="word">hello</div><div class="ipa" id="ipa"></div><button class="secondary tiny" id="say">🔊 Nghe phát âm</button><div id="answer" class="hidden"><div class="meaning" id="meaning"></div><div class="phrase" id="phrase"></div><div class="example" id="example"></div></div><button class="secondary" id="flip" style="margin-top:13px">Hiện nghĩa & ví dụ</button></div>
+<div class="actions"><button class="ghost" id="prev">← Trước</button><button class="again" id="markAgain">↻ Cần ôn</button><button class="known" id="markKnown">✓ Đã nhớ</button><button class="ghost" id="next">Tiếp →</button></div></div>
+<div id="listArea" class="list hidden"></div><div id="empty" class="notice hidden">Không có từ phù hợp với lựa chọn này.</div>
+<div class="notice" id="dataNote">Đang tải bộ từ vựng…</div>
+</section></main>
+<aside>
+<section class="panel"><h3>Tiến độ của mày</h3><p class="muted">Lưu trên trình duyệt của thiết bị này; không cần tạo tài khoản.</p><div class="progress"><div class="bar" id="bar"></div></div><div class="muted" id="progressText">0 từ đã nhớ</div><div class="actions"><button class="primary" id="quizBtn">Làm quiz 5 câu</button><button class="ghost" id="exportBtn">Xuất tiến độ</button></div>
+<div id="quizArea" class="hidden" style="margin-top:13px"><div class="quizbox"><div class="muted" id="qCount">Câu 1/5</div><div class="word" id="qWord" style="font-size:24px"></div><div class="options" id="options"></div><div id="feedback" class="muted" aria-live="polite"></div><button class="primary wide hidden" id="qNext">Câu tiếp theo</button></div></div>
+<div class="notice">Lịch ôn: 1 → 3 → 7 → 14 → 30 ngày. Nếu chọn “Cần ôn”, từ sẽ quay lại sớm hơn. Tiến độ được lưu cục bộ trên iPhone.</div></section>
+<section class="panel"><h3>Hướng dẫn iPhone</h3><p class="muted">Sau khi trang được đưa lên HTTPS, mở bằng Safari → nút Chia sẻ → “Thêm vào MH chính”.</p><button class="ghost wide" id="installHelp">Xem hướng dẫn cài đặt</button><div id="installText" class="muted hidden" style="margin-top:10px">1) Mở URL HTTPS bằng Safari. 2) Chạm nút Chia sẻ. 3) Chọn “Thêm vào Màn hình chính”. 4) Bật “Mở dưới dạng ứng dụng web” nếu có. 5) Chạm Thêm. Mở app từ biểu tượng mới để dùng như ứng dụng.</div></section>
+</aside></div>
+<div class="foot">Vocab Sprint · PWA ưu tiên iPhone · Phát âm dùng giọng đọc tích hợp trên thiết bị.</div>
+</div>
+<script>
+let vocab=[], status={}, idx=0, mode='learn', flipped=false, quiz=[], qi=0, score=0, answered=false;
+const $=id=>document.getElementById(id);
+const KEY='vocabSprintStateV2';
+function loadState(){try{status=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){status={}}}
+function saveState(){try{localStorage.setItem(KEY,JSON.stringify(status))}catch(e){} renderStats()}
+function today(){return new Date().toISOString().slice(0,10)}
+function isDue(w){const s=status[w.word];return s && s.due && s.due<=today()}
+function filtered(){
+ let arr=vocab;
+ const q=$('search').value.trim().toLowerCase();
+ const d=$('day').value;
+ if(d!=='all') arr=arr.filter(w=>String(w.day||1)===d);
+ if(mode==='review') arr=arr.filter(w=>isDue(w)||status[w.word]?.again);
+ if(q) arr=arr.filter(w=>(w.word+' '+w.meaning+' '+w.phrase).toLowerCase().includes(q));
+ return arr;
+}
+function current(){const a=filtered();return a.length?a[Math.min(idx,a.length-1)]:null}
+function renderCard(){
+ const arr=filtered(), w=current();
+ $('empty').classList.toggle('hidden',!!w);
+ $('flashArea').classList.toggle('hidden',!w||mode==='list');
+ $('listArea').classList.toggle('hidden',mode!=='list');
+ if(mode==='list'){ $('listArea').innerHTML=arr.map(w=>`<div class="item"><strong>${esc(w.word)}</strong> <span class="itemmeta">${esc(w.ipa||'')}</span><div>${esc(w.meaning)}</div><div class="itemmeta">${esc(w.example||'')}</div><button class="secondary tiny" data-say="${esc(w.word)}">🔊 Nghe</button></div>`).join('')||'';return;}
+ if(!w)return;
+ $('counter').textContent=(idx+1)+' / '+arr.length;
+ $('word').textContent=w.word; $('ipa').textContent=w.ipa||'IPA chưa có';
+ $('meaning').textContent=w.meaning; $('phrase').textContent=w.phrase?'Cụm từ: '+w.phrase:'';
+ $('example').textContent=w.example||'';
+ $('answer').classList.toggle('hidden',!flipped);
+ $('flip').textContent=flipped?'Ẩn nghĩa':'Hiện nghĩa & ví dụ';
+}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function renderStats(){
+ const learned=Object.values(status).filter(s=>s.known).length;
+ const due=Object.entries(status).filter(([w,s])=>s.due&&s.due<=today()||s.again).length;
+ $('learned').textContent=learned;$('due').textContent=due;
+ const pct=Math.min(100,Math.round(learned/Math.max(vocab.length,1)*100));
+ $('bar').style.width=pct+'%';$('progressText').textContent=learned+'/'+vocab.length+' từ đã đánh dấu nhớ ('+pct+'%)';
+ $('streak').textContent=localStorage.getItem('vocabSprintStreak')||'0';
+}
+function speak(word){if(!('speechSynthesis' in window)){alert('Trình duyệt này chưa hỗ trợ phát âm. Hãy mở bằng Safari.');return;}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(word);u.lang='en-GB';u.rate=.86;speechSynthesis.speak(u)}
+function mark(known){
+ const w=current();if(!w)return;
+ const old=status[w.word]||{interval:0};
+ let interval=known?([1,3,7,14,30][Math.min(old.interval||0,4)]):0;
+ let dueDate=new Date();dueDate.setDate(dueDate.getDate()+Math.max(known?interval:1,1));
+ status[w.word]={known:!!known,again:!known,interval:known?Math.min((old.interval||0)+1,4):0,due:dueDate.toISOString().slice(0,10),last:today()};
+ if(known){const last=localStorage.getItem('vocabSprintLastStudy');if(last!==today()){let streak=Number(localStorage.getItem('vocabSprintStreak')||0);const y=new Date();y.setDate(y.getDate()-1);streak=last===y.toISOString().slice(0,10)?streak+1:1;localStorage.setItem('vocabSprintStreak',String(streak));localStorage.setItem('vocabSprintLastStudy',today());}}
+ saveState();nextCard();
+}
+function nextCard(){const a=filtered();if(!a.length)return;idx=(idx+1)%a.length;flipped=false;renderCard()}
+function startQuiz(){
+ const pool=vocab.slice();if(pool.length<4){alert('Cần ít nhất 4 từ để tạo quiz.');return}
+ quiz=[];for(let i=0;i<Math.min(5,pool.length);i++){const w=pool[Math.floor(Math.random()*pool.length)];if(!quiz.some(x=>x.word===w.word))quiz.push(w)}
+ qi=0;score=0;answered=false;$('quizArea').classList.remove('hidden');showQuestion();
+}
+function showQuestion(){
+ const w=quiz[qi];answered=false;$('qCount').textContent=`Câu ${qi+1}/${quiz.length}`;$('qWord').textContent=w.word;$('feedback').textContent='';$('qNext').classList.add('hidden');
+ const wrong=vocab.filter(x=>x.word!==w.word&&x.meaning!==w.meaning);const opts=[w];while(opts.length<Math.min(4,vocab.length)){const x=wrong[Math.floor(Math.random()*wrong.length)];if(x&&!opts.some(o=>o.meaning===x.meaning))opts.push(x)}
+ opts.sort(()=>Math.random()-.5);$('options').innerHTML=opts.map(o=>`<button class="option" data-meaning="${esc(o.meaning)}">${esc(o.meaning)}</button>`).join('');
+}
+function chooseAnswer(btn){
+ if(answered)return;answered=true;const w=quiz[qi];const ok=btn.dataset.meaning===w.meaning;if(ok)score++;
+ [...$('options').querySelectorAll('button')].forEach(b=>{b.disabled=true;if(b.dataset.meaning===w.meaning)b.classList.add('correct');else if(b===btn)b.classList.add('wrong')});
+ $('feedback').textContent=ok?'Chính xác!':'Đáp án: '+w.meaning;$('qNext').classList.remove('hidden');
+}
+async function init(){
+ loadState();
+ try{const res=await fetch('./words.json');vocab=await res.json()}catch(e){vocab=[]}
+ if(!Array.isArray(vocab)||!vocab.length){$('dataNote').textContent='Không tải được words.json. Hãy dùng gói ZIP đầy đủ, không mở riêng file index.html.';return}
+ $('dataNote').textContent=`Đã tải ${vocab.length} từ có nghĩa, IPA và ví dụ mẫu. Đây là bộ khởi đầu; để đạt đủ 1.500 từ, cần thêm dữ liệu từ vựng đã kiểm duyệt.`;
+ const maxDay=Math.ceil(vocab.length/50);for(let d=1;d<=Math.min(30,maxDay);d++){const op=document.createElement('option');op.value=String(d);op.textContent='Ngày '+d;$('day').appendChild(op)}
+ renderStats();renderCard();
+ if('serviceWorker' in navigator && location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js').catch(()=>{});
+}
+document.addEventListener('click',e=>{
+ const t=e.target.closest('button');if(!t)return;
+ if(t.dataset.mode){mode=t.dataset.mode;idx=0;flipped=false;document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b===t));renderCard()}
+ if(t.id==='flip'){e.stopPropagation();flipped=!flipped;renderCard()}
+ if(t.id==='say'||t.id==='soundTest')speak(current()?.word||'hello');
+ if(t.id==='prev'){idx=Math.max(0,idx-1);flipped=false;renderCard()}
+ if(t.id==='next')nextCard();
+ if(t.id==='markKnown')mark(true);if(t.id==='markAgain')mark(false);
+ if(t.id==='quizBtn')startQuiz();
+ if(t.id==='qNext'){if(qi<quiz.length-1){qi++;showQuestion()}else{$('qCount').textContent='Hoàn thành';$('qWord').textContent=`${score}/${quiz.length} câu đúng`;$('options').innerHTML='';$('feedback').textContent='Hãy ôn lại những từ trả lời sai rồi thử lại.';$('qNext').classList.add('hidden')}}
+ if(t.classList.contains('option'))chooseAnswer(t);
+ if(t.id==='exportBtn'){const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),status},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='vocab-sprint-progress.json';a.click();URL.revokeObjectURL(a.href)}
+ if(t.id==='installHelp')$('installText').classList.toggle('hidden');
+ if(t.dataset.say)speak(t.dataset.say);
+});
+$('flash').addEventListener('click',e=>{if(e.target.closest('button'))return;flipped=!flipped;renderCard()});
+$('flash').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flipped=!flipped;renderCard()}});
+$('search').addEventListener('input',()=>{idx=0;renderCard()});$('day').addEventListener('change',()=>{idx=0;renderCard()});
+init();
+</script>
+</body></html>

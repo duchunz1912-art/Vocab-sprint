@@ -1,0 +1,1017 @@
+[
+  {
+    "word": "be",
+    "ipa": "/biː/",
+    "meaning": "thì, là, ở",
+    "phrase": "be happy",
+    "example": "I want to be better at English."
+  },
+  {
+    "word": "have",
+    "ipa": "/hæv/",
+    "meaning": "có",
+    "phrase": "have time",
+    "example": "I have time to study every evening."
+  },
+  {
+    "word": "do",
+    "ipa": "/duː/",
+    "meaning": "làm",
+    "phrase": "do homework",
+    "example": "I do my homework after class."
+  },
+  {
+    "word": "make",
+    "ipa": "/meɪk/",
+    "meaning": "tạo ra, làm",
+    "phrase": "make a decision",
+    "example": "We need to make a decision today."
+  },
+  {
+    "word": "go",
+    "ipa": "/ɡəʊ/",
+    "meaning": "đi",
+    "phrase": "go to school",
+    "example": "I go to school by bus."
+  },
+  {
+    "word": "come",
+    "ipa": "/kʌm/",
+    "meaning": "đến",
+    "phrase": "come back",
+    "example": "Please come back before six."
+  },
+  {
+    "word": "get",
+    "ipa": "/ɡet/",
+    "meaning": "nhận; trở nên",
+    "phrase": "get better",
+    "example": "Practice helps me get better."
+  },
+  {
+    "word": "take",
+    "ipa": "/teɪk/",
+    "meaning": "lấy, mang",
+    "phrase": "take a break",
+    "example": "I take a short break after studying."
+  },
+  {
+    "word": "give",
+    "ipa": "/ɡɪv/",
+    "meaning": "đưa, cho",
+    "phrase": "give advice",
+    "example": "My teacher gives useful advice."
+  },
+  {
+    "word": "bring",
+    "ipa": "/brɪŋ/",
+    "meaning": "mang đến",
+    "phrase": "bring a book",
+    "example": "Please bring a book to class."
+  },
+  {
+    "word": "keep",
+    "ipa": "/kiːp/",
+    "meaning": "giữ",
+    "phrase": "keep in touch",
+    "example": "We keep in touch with our friends."
+  },
+  {
+    "word": "put",
+    "ipa": "/pʊt/",
+    "meaning": "đặt, để",
+    "phrase": "put on",
+    "example": "Put your phone on the desk."
+  },
+  {
+    "word": "find",
+    "ipa": "/faɪnd/",
+    "meaning": "tìm thấy",
+    "phrase": "find a solution",
+    "example": "We can find a solution together."
+  },
+  {
+    "word": "know",
+    "ipa": "/nəʊ/",
+    "meaning": "biết",
+    "phrase": "know the answer",
+    "example": "Do you know the answer?"
+  },
+  {
+    "word": "think",
+    "ipa": "/θɪŋk/",
+    "meaning": "nghĩ",
+    "phrase": "think about",
+    "example": "I think about my future."
+  },
+  {
+    "word": "understand",
+    "ipa": "/ˌʌndəˈstænd/",
+    "meaning": "hiểu",
+    "phrase": "understand the question",
+    "example": "I understand the question now."
+  },
+  {
+    "word": "learn",
+    "ipa": "/lɜːn/",
+    "meaning": "học",
+    "phrase": "learn English",
+    "example": "I learn English every day."
+  },
+  {
+    "word": "study",
+    "ipa": "/ˈstʌdi/",
+    "meaning": "học, nghiên cứu",
+    "phrase": "study abroad",
+    "example": "She wants to study abroad."
+  },
+  {
+    "word": "teach",
+    "ipa": "/tiːtʃ/",
+    "meaning": "dạy",
+    "phrase": "teach students",
+    "example": "He wants to teach students."
+  },
+  {
+    "word": "explain",
+    "ipa": "/ɪkˈspleɪn/",
+    "meaning": "giải thích",
+    "phrase": "explain clearly",
+    "example": "Could you explain it clearly?"
+  },
+  {
+    "word": "ask",
+    "ipa": "/ɑːsk/",
+    "meaning": "hỏi; yêu cầu",
+    "phrase": "ask a question",
+    "example": "You can ask a question at any time."
+  },
+  {
+    "word": "answer",
+    "ipa": "/ˈɑːnsə/",
+    "meaning": "trả lời",
+    "phrase": "answer correctly",
+    "example": "Try to answer correctly."
+  },
+  {
+    "word": "tell",
+    "ipa": "/tel/",
+    "meaning": "kể, bảo",
+    "phrase": "tell the truth",
+    "example": "It is important to tell the truth."
+  },
+  {
+    "word": "speak",
+    "ipa": "/spiːk/",
+    "meaning": "nói",
+    "phrase": "speak English",
+    "example": "I practise speaking English every day."
+  },
+  {
+    "word": "say",
+    "ipa": "/seɪ/",
+    "meaning": "nói",
+    "phrase": "say something",
+    "example": "Please say something in English."
+  },
+  {
+    "word": "talk",
+    "ipa": "/tɔːk/",
+    "meaning": "trò chuyện",
+    "phrase": "talk to someone",
+    "example": "I talk to my classmates after school."
+  },
+  {
+    "word": "listen",
+    "ipa": "/ˈlɪsən/",
+    "meaning": "lắng nghe",
+    "phrase": "listen carefully",
+    "example": "Listen carefully to the recording."
+  },
+  {
+    "word": "hear",
+    "ipa": "/hɪə/",
+    "meaning": "nghe thấy",
+    "phrase": "hear a sound",
+    "example": "I can hear a strange sound."
+  },
+  {
+    "word": "see",
+    "ipa": "/siː/",
+    "meaning": "nhìn thấy",
+    "phrase": "see the difference",
+    "example": "Can you see the difference?"
+  },
+  {
+    "word": "look",
+    "ipa": "/lʊk/",
+    "meaning": "nhìn",
+    "phrase": "look at",
+    "example": "Look at the example."
+  },
+  {
+    "word": "watch",
+    "ipa": "/wɒtʃ/",
+    "meaning": "xem, theo dõi",
+    "phrase": "watch a video",
+    "example": "I watch a video to practise listening."
+  },
+  {
+    "word": "read",
+    "ipa": "/riːd/",
+    "meaning": "đọc",
+    "phrase": "read a book",
+    "example": "I read a book before bed."
+  },
+  {
+    "word": "write",
+    "ipa": "/raɪt/",
+    "meaning": "viết",
+    "phrase": "write a report",
+    "example": "Students write a short report."
+  },
+  {
+    "word": "use",
+    "ipa": "/juːz/",
+    "meaning": "sử dụng",
+    "phrase": "use a computer",
+    "example": "I use a computer for my studies."
+  },
+  {
+    "word": "need",
+    "ipa": "/niːd/",
+    "meaning": "cần",
+    "phrase": "need help",
+    "example": "I need help with this question."
+  },
+  {
+    "word": "want",
+    "ipa": "/wɒnt/",
+    "meaning": "muốn",
+    "phrase": "want to learn",
+    "example": "I want to learn new words."
+  },
+  {
+    "word": "try",
+    "ipa": "/traɪ/",
+    "meaning": "thử; cố gắng",
+    "phrase": "try again",
+    "example": "If you make a mistake, try again."
+  },
+  {
+    "word": "help",
+    "ipa": "/help/",
+    "meaning": "giúp đỡ",
+    "phrase": "help others",
+    "example": "We should help others when possible."
+  },
+  {
+    "word": "work",
+    "ipa": "/wɜːk/",
+    "meaning": "làm việc",
+    "phrase": "work hard",
+    "example": "I work hard to reach my goal."
+  },
+  {
+    "word": "start",
+    "ipa": "/stɑːt/",
+    "meaning": "bắt đầu",
+    "phrase": "start learning",
+    "example": "I start learning at seven."
+  },
+  {
+    "word": "finish",
+    "ipa": "/ˈfɪnɪʃ/",
+    "meaning": "hoàn thành",
+    "phrase": "finish a task",
+    "example": "I finish the task before dinner."
+  },
+  {
+    "word": "change",
+    "ipa": "/tʃeɪndʒ/",
+    "meaning": "thay đổi",
+    "phrase": "change your mind",
+    "example": "You can change your mind."
+  },
+  {
+    "word": "improve",
+    "ipa": "/ɪmˈpruːv/",
+    "meaning": "cải thiện",
+    "phrase": "improve your skills",
+    "example": "Reading can improve your vocabulary."
+  },
+  {
+    "word": "develop",
+    "ipa": "/dɪˈveləp/",
+    "meaning": "phát triển",
+    "phrase": "develop a skill",
+    "example": "Practice helps you develop a skill."
+  },
+  {
+    "word": "become",
+    "ipa": "/bɪˈkʌm/",
+    "meaning": "trở thành",
+    "phrase": "become successful",
+    "example": "She hopes to become an engineer."
+  },
+  {
+    "word": "seem",
+    "ipa": "/siːm/",
+    "meaning": "có vẻ",
+    "phrase": "seem difficult",
+    "example": "The task may seem difficult at first."
+  },
+  {
+    "word": "feel",
+    "ipa": "/fiːl/",
+    "meaning": "cảm thấy",
+    "phrase": "feel confident",
+    "example": "I feel more confident now."
+  },
+  {
+    "word": "believe",
+    "ipa": "/bɪˈliːv/",
+    "meaning": "tin",
+    "phrase": "believe in yourself",
+    "example": "Believe in yourself and keep practising."
+  },
+  {
+    "word": "remember",
+    "ipa": "/rɪˈmembə/",
+    "meaning": "nhớ",
+    "phrase": "remember a word",
+    "example": "I remember this word from yesterday."
+  },
+  {
+    "word": "forget",
+    "ipa": "/fəˈɡet/",
+    "meaning": "quên",
+    "phrase": "forget a name",
+    "example": "I sometimes forget new names."
+  },
+  {
+    "word": "ability",
+    "ipa": "/əˈbɪləti/",
+    "meaning": "khả năng",
+    "phrase": "have the ability to",
+    "example": "She has the ability to solve difficult problems."
+  },
+  {
+    "word": "abroad",
+    "ipa": "/əˈbrɔːd/",
+    "meaning": "ở nước ngoài",
+    "phrase": "study abroad",
+    "example": "He hopes to study abroad next year."
+  },
+  {
+    "word": "achieve",
+    "ipa": "/əˈtʃiːv/",
+    "meaning": "đạt được",
+    "phrase": "achieve a goal",
+    "example": "Small steps help you achieve your goals."
+  },
+  {
+    "word": "achievement",
+    "ipa": "/əˈtʃiːvmənt/",
+    "meaning": "thành tựu",
+    "phrase": "a great achievement",
+    "example": "Passing the exam was a great achievement."
+  },
+  {
+    "word": "active",
+    "ipa": "/ˈæktɪv/",
+    "meaning": "năng động; tích cực",
+    "phrase": "stay active",
+    "example": "I try to stay active every day."
+  },
+  {
+    "word": "actually",
+    "ipa": "/ˈæktʃuəli/",
+    "meaning": "thực ra",
+    "phrase": "actually think",
+    "example": "Actually, I agree with your idea."
+  },
+  {
+    "word": "advantage",
+    "ipa": "/ədˈvɑːntɪdʒ/",
+    "meaning": "lợi thế",
+    "phrase": "have an advantage",
+    "example": "Good communication is an advantage at work."
+  },
+  {
+    "word": "advice",
+    "ipa": "/ədˈvaɪs/",
+    "meaning": "lời khuyên",
+    "phrase": "give advice",
+    "example": "My teacher gave me useful advice."
+  },
+  {
+    "word": "afford",
+    "ipa": "/əˈfɔːd/",
+    "meaning": "có đủ khả năng chi trả",
+    "phrase": "afford a laptop",
+    "example": "I am saving money to afford a new laptop."
+  },
+  {
+    "word": "allow",
+    "ipa": "/əˈlaʊ/",
+    "meaning": "cho phép",
+    "phrase": "allow someone to",
+    "example": "The library allows students to study quietly."
+  },
+  {
+    "word": "although",
+    "ipa": "/ɔːlˈðəʊ/",
+    "meaning": "mặc dù",
+    "phrase": "although it is difficult",
+    "example": "Although it was raining, we went to class."
+  },
+  {
+    "word": "amount",
+    "ipa": "/əˈmaʊnt/",
+    "meaning": "lượng; số lượng",
+    "phrase": "a large amount of",
+    "example": "Drink a sufficient amount of water."
+  },
+  {
+    "word": "appear",
+    "ipa": "/əˈpɪə/",
+    "meaning": "xuất hiện; có vẻ",
+    "phrase": "appear suddenly",
+    "example": "A message appeared on my screen."
+  },
+  {
+    "word": "apply",
+    "ipa": "/əˈplaɪ/",
+    "meaning": "nộp đơn; áp dụng",
+    "phrase": "apply for a job",
+    "example": "She plans to apply for a scholarship."
+  },
+  {
+    "word": "approach",
+    "ipa": "/əˈprəʊtʃ/",
+    "meaning": "cách tiếp cận; tiếp cận",
+    "phrase": "a new approach",
+    "example": "We need a better approach to this problem."
+  },
+  {
+    "word": "appropriate",
+    "ipa": "/əˈprəʊpriət/",
+    "meaning": "phù hợp",
+    "phrase": "appropriate for",
+    "example": "Choose an appropriate example for your talk."
+  },
+  {
+    "word": "argue",
+    "ipa": "/ˈɑːɡjuː/",
+    "meaning": "tranh luận; cãi nhau",
+    "phrase": "argue about",
+    "example": "They argued about the best solution."
+  },
+  {
+    "word": "arrange",
+    "ipa": "/əˈreɪndʒ/",
+    "meaning": "sắp xếp",
+    "phrase": "arrange a meeting",
+    "example": "I will arrange a meeting with my team."
+  },
+  {
+    "word": "article",
+    "ipa": "/ˈɑːtɪkəl/",
+    "meaning": "bài báo; bài viết",
+    "phrase": "read an article",
+    "example": "I read an article about renewable energy."
+  },
+  {
+    "word": "attention",
+    "ipa": "/əˈtenʃən/",
+    "meaning": "sự chú ý",
+    "phrase": "pay attention",
+    "example": "Please pay attention to the instructions."
+  },
+  {
+    "word": "attitude",
+    "ipa": "/ˈætɪtjuːd/",
+    "meaning": "thái độ",
+    "phrase": "a positive attitude",
+    "example": "A positive attitude helps me learn."
+  },
+  {
+    "word": "available",
+    "ipa": "/əˈveɪləbl/",
+    "meaning": "có sẵn; rảnh",
+    "phrase": "available online",
+    "example": "The course is available online."
+  },
+  {
+    "word": "avoid",
+    "ipa": "/əˈvɔɪd/",
+    "meaning": "tránh",
+    "phrase": "avoid mistakes",
+    "example": "Check your work to avoid mistakes."
+  },
+  {
+    "word": "basic",
+    "ipa": "/ˈbeɪsɪk/",
+    "meaning": "cơ bản",
+    "phrase": "basic skills",
+    "example": "Every engineer needs basic maths skills."
+  },
+  {
+    "word": "behaviour",
+    "ipa": "/bɪˈheɪvjə/",
+    "meaning": "hành vi; cách cư xử",
+    "phrase": "good behaviour",
+    "example": "Good behaviour makes teamwork easier."
+  },
+  {
+    "word": "benefit",
+    "ipa": "/ˈbenɪfɪt/",
+    "meaning": "lợi ích; có lợi",
+    "phrase": "benefit from",
+    "example": "Students benefit from regular practice."
+  },
+  {
+    "word": "challenge",
+    "ipa": "/ˈtʃælɪndʒ/",
+    "meaning": "thử thách; thách thức",
+    "phrase": "face a challenge",
+    "example": "Learning a language is a long-term challenge."
+  },
+  {
+    "word": "choice",
+    "ipa": "/tʃɔɪs/",
+    "meaning": "sự lựa chọn",
+    "phrase": "make a choice",
+    "example": "You have to make a choice."
+  },
+  {
+    "word": "community",
+    "ipa": "/kəˈmjuːnəti/",
+    "meaning": "cộng đồng",
+    "phrase": "local community",
+    "example": "The project supports the local community."
+  },
+  {
+    "word": "compare",
+    "ipa": "/kəmˈpeə/",
+    "meaning": "so sánh",
+    "phrase": "compare two options",
+    "example": "Compare the two options before deciding."
+  },
+  {
+    "word": "confident",
+    "ipa": "/ˈkɒnfɪdənt/",
+    "meaning": "tự tin",
+    "phrase": "feel confident",
+    "example": "Practice helps me feel more confident."
+  },
+  {
+    "word": "consider",
+    "ipa": "/kənˈsɪdə/",
+    "meaning": "cân nhắc",
+    "phrase": "consider an option",
+    "example": "We should consider every option."
+  },
+  {
+    "word": "continue",
+    "ipa": "/kənˈtɪnjuː/",
+    "meaning": "tiếp tục",
+    "phrase": "continue learning",
+    "example": "I will continue learning English."
+  },
+  {
+    "word": "create",
+    "ipa": "/kriˈeɪt/",
+    "meaning": "tạo ra",
+    "phrase": "create a plan",
+    "example": "Let's create a plan for the project."
+  },
+  {
+    "word": "culture",
+    "ipa": "/ˈkʌltʃə/",
+    "meaning": "văn hóa",
+    "phrase": "different cultures",
+    "example": "Books help us understand different cultures."
+  },
+  {
+    "word": "decision",
+    "ipa": "/dɪˈsɪʒən/",
+    "meaning": "quyết định",
+    "phrase": "make a decision",
+    "example": "We made a decision after the discussion."
+  },
+  {
+    "word": "difference",
+    "ipa": "/ˈdɪfərəns/",
+    "meaning": "sự khác biệt",
+    "phrase": "make a difference",
+    "example": "Small habits can make a difference."
+  },
+  {
+    "word": "difficult",
+    "ipa": "/ˈdɪfɪkəlt/",
+    "meaning": "khó khăn",
+    "phrase": "a difficult task",
+    "example": "This is a difficult task, but I can try."
+  },
+  {
+    "word": "education",
+    "ipa": "/ˌedʒuˈkeɪʃən/",
+    "meaning": "giáo dục",
+    "phrase": "higher education",
+    "example": "Education can open many opportunities."
+  },
+  {
+    "word": "effective",
+    "ipa": "/ɪˈfektɪv/",
+    "meaning": "hiệu quả",
+    "phrase": "an effective method",
+    "example": "Spaced repetition is an effective method."
+  },
+  {
+    "word": "effort",
+    "ipa": "/ˈefət/",
+    "meaning": "nỗ lực",
+    "phrase": "make an effort",
+    "example": "You will improve if you make an effort."
+  },
+  {
+    "word": "environment",
+    "ipa": "/ɪnˈvaɪrənmənt/",
+    "meaning": "môi trường",
+    "phrase": "protect the environment",
+    "example": "We should protect the environment."
+  },
+  {
+    "word": "especially",
+    "ipa": "/ɪˈspeʃəli/",
+    "meaning": "đặc biệt là",
+    "phrase": "especially important",
+    "example": "Listening is especially important for IELTS."
+  },
+  {
+    "word": "experience",
+    "ipa": "/ɪkˈspɪəriəns/",
+    "meaning": "kinh nghiệm; trải nghiệm",
+    "phrase": "gain experience",
+    "example": "Projects help students gain experience."
+  },
+  {
+    "word": "familiar",
+    "ipa": "/fəˈmɪliə/",
+    "meaning": "quen thuộc",
+    "phrase": "be familiar with",
+    "example": "I am familiar with this topic."
+  },
+  {
+    "word": "focus",
+    "ipa": "/ˈfəʊkəs/",
+    "meaning": "tập trung; trọng tâm",
+    "phrase": "focus on",
+    "example": "I focus on learning ten words at a time."
+  },
+  {
+    "word": "independent",
+    "ipa": "/ˌɪndɪˈpendənt/",
+    "meaning": "độc lập",
+    "phrase": "become independent",
+    "example": "Students learn to become more independent."
+  },
+  {
+    "word": "information",
+    "ipa": "/ˌɪnfəˈmeɪʃən/",
+    "meaning": "thông tin",
+    "phrase": "useful information",
+    "example": "The website provides useful information."
+  },
+  {
+    "word": "knowledge",
+    "ipa": "/ˈnɒlɪdʒ/",
+    "meaning": "kiến thức",
+    "phrase": "gain knowledge",
+    "example": "Reading helps us gain knowledge."
+  },
+  {
+    "word": "method",
+    "ipa": "/ˈmeθəd/",
+    "meaning": "phương pháp",
+    "phrase": "a useful method",
+    "example": "Try a different method if this one fails."
+  },
+  {
+    "word": "opportunity",
+    "ipa": "/ˌɒpəˈtjuːnəti/",
+    "meaning": "cơ hội",
+    "phrase": "an opportunity to",
+    "example": "This course is an opportunity to practise English."
+  },
+  {
+    "word": "organise",
+    "ipa": "/ˈɔːɡənaɪz/",
+    "meaning": "tổ chức; sắp xếp",
+    "phrase": "organise a project",
+    "example": "We need to organise the project carefully."
+  },
+  {
+    "word": "possible",
+    "ipa": "/ˈpɒsəbl/",
+    "meaning": "có thể",
+    "phrase": "as soon as possible",
+    "example": "Please reply as soon as possible."
+  },
+  {
+    "word": "prepare",
+    "ipa": "/prɪˈpeə/",
+    "meaning": "chuẩn bị",
+    "phrase": "prepare for an exam",
+    "example": "I prepare for my exam every evening."
+  },
+  {
+    "word": "progress",
+    "ipa": "/ˈprəʊɡres/",
+    "meaning": "tiến bộ; sự tiến bộ",
+    "phrase": "make progress",
+    "example": "I make progress when I practise regularly."
+  },
+  {
+    "word": "purpose",
+    "ipa": "/ˈpɜːpəs/",
+    "meaning": "mục đích",
+    "phrase": "for this purpose",
+    "example": "We use the tool for this purpose."
+  },
+  {
+    "word": "reason",
+    "ipa": "/ˈriːzən/",
+    "meaning": "lý do",
+    "phrase": "for this reason",
+    "example": "For this reason, I chose this course."
+  },
+  {
+    "word": "relationship",
+    "ipa": "/rɪˈleɪʃənʃɪp/",
+    "meaning": "mối quan hệ",
+    "phrase": "build a relationship",
+    "example": "Good communication builds trust in a relationship."
+  },
+  {
+    "word": "research",
+    "ipa": "/rɪˈsɜːtʃ/",
+    "meaning": "nghiên cứu",
+    "phrase": "do research",
+    "example": "We need to do more research."
+  },
+  {
+    "word": "responsible",
+    "ipa": "/rɪˈspɒnsəbl/",
+    "meaning": "có trách nhiệm",
+    "phrase": "be responsible for",
+    "example": "I am responsible for checking the results."
+  },
+  {
+    "word": "result",
+    "ipa": "/rɪˈzʌlt/",
+    "meaning": "kết quả",
+    "phrase": "as a result",
+    "example": "As a result, the system became more efficient."
+  },
+  {
+    "word": "similar",
+    "ipa": "/ˈsɪmələ/",
+    "meaning": "tương tự",
+    "phrase": "similar to",
+    "example": "The two designs are similar to each other."
+  },
+  {
+    "word": "solution",
+    "ipa": "/səˈluːʃən/",
+    "meaning": "giải pháp",
+    "phrase": "find a solution",
+    "example": "The team found a simple solution."
+  },
+  {
+    "word": "support",
+    "ipa": "/səˈpɔːt/",
+    "meaning": "hỗ trợ; sự hỗ trợ",
+    "phrase": "support a team",
+    "example": "Friends support each other during exams."
+  },
+  {
+    "word": "technology",
+    "ipa": "/tekˈnɒlədʒi/",
+    "meaning": "công nghệ",
+    "phrase": "modern technology",
+    "example": "Modern technology changes how we learn."
+  },
+  {
+    "word": "therefore",
+    "ipa": "/ˈðeəfɔː/",
+    "meaning": "vì vậy",
+    "phrase": "therefore, we should",
+    "example": "The data is incomplete; therefore, we should check it."
+  },
+  {
+    "word": "throughout",
+    "ipa": "/θruːˈaʊt/",
+    "meaning": "xuyên suốt; khắp",
+    "phrase": "throughout the year",
+    "example": "I practise English throughout the year."
+  },
+  {
+    "word": "value",
+    "ipa": "/ˈvæljuː/",
+    "meaning": "giá trị",
+    "phrase": "add value",
+    "example": "Teamwork can add value to a project."
+  },
+  {
+    "word": "various",
+    "ipa": "/ˈveəriəs/",
+    "meaning": "đa dạng; nhiều loại",
+    "phrase": "various reasons",
+    "example": "There are various reasons to learn English."
+  },
+  {
+    "word": "volunteer",
+    "ipa": "/ˌvɒlənˈtɪə/",
+    "meaning": "tình nguyện viên; tình nguyện",
+    "phrase": "volunteer work",
+    "example": "Volunteer work can help the community."
+  },
+  {
+    "word": "analyse",
+    "ipa": "/ˈænəlaɪz/",
+    "meaning": "phân tích",
+    "phrase": "analyse data",
+    "example": "Engineers analyse data before changing a system."
+  },
+  {
+    "word": "automation",
+    "ipa": "/ˌɔːtəˈmeɪʃən/",
+    "meaning": "sự tự động hóa",
+    "phrase": "industrial automation",
+    "example": "Industrial automation can improve productivity."
+  },
+  {
+    "word": "circuit",
+    "ipa": "/ˈsɜːkɪt/",
+    "meaning": "mạch điện",
+    "phrase": "electric circuit",
+    "example": "The student built a simple electric circuit."
+  },
+  {
+    "word": "control",
+    "ipa": "/kənˈtrəʊl/",
+    "meaning": "điều khiển; kiểm soát",
+    "phrase": "control system",
+    "example": "A PLC can control a machine."
+  },
+  {
+    "word": "current",
+    "ipa": "/ˈkʌrənt/",
+    "meaning": "dòng điện; hiện tại",
+    "phrase": "electric current",
+    "example": "Electric current flows through the wire."
+  },
+  {
+    "word": "device",
+    "ipa": "/dɪˈvaɪs/",
+    "meaning": "thiết bị",
+    "phrase": "electronic device",
+    "example": "The device measures temperature."
+  },
+  {
+    "word": "energy",
+    "ipa": "/ˈenədʒi/",
+    "meaning": "năng lượng",
+    "phrase": "save energy",
+    "example": "The new motor uses less energy."
+  },
+  {
+    "word": "engineer",
+    "ipa": "/ˌendʒɪˈnɪə/",
+    "meaning": "kỹ sư",
+    "phrase": "automation engineer",
+    "example": "An automation engineer designs control systems."
+  },
+  {
+    "word": "equipment",
+    "ipa": "/ɪˈkwɪpmənt/",
+    "meaning": "thiết bị",
+    "phrase": "safety equipment",
+    "example": "Wear the correct safety equipment in the lab."
+  },
+  {
+    "word": "fault",
+    "ipa": "/fɔːlt/",
+    "meaning": "lỗi; sự cố",
+    "phrase": "detect a fault",
+    "example": "The sensor detects a fault in the system."
+  },
+  {
+    "word": "input",
+    "ipa": "/ˈɪnpʊt/",
+    "meaning": "đầu vào",
+    "phrase": "input signal",
+    "example": "The PLC receives an input signal."
+  },
+  {
+    "word": "output",
+    "ipa": "/ˈaʊtpʊt/",
+    "meaning": "đầu ra",
+    "phrase": "output signal",
+    "example": "The output signal starts the motor."
+  },
+  {
+    "word": "maintenance",
+    "ipa": "/ˈmeɪntənəns/",
+    "meaning": "bảo trì",
+    "phrase": "preventive maintenance",
+    "example": "Regular maintenance reduces downtime."
+  },
+  {
+    "word": "measure",
+    "ipa": "/ˈmeʒə/",
+    "meaning": "đo; biện pháp",
+    "phrase": "measure voltage",
+    "example": "We measure voltage with a meter."
+  },
+  {
+    "word": "motor",
+    "ipa": "/ˈməʊtə/",
+    "meaning": "động cơ",
+    "phrase": "electric motor",
+    "example": "The electric motor drives the conveyor."
+  },
+  {
+    "word": "network",
+    "ipa": "/ˈnetwɜːk/",
+    "meaning": "mạng lưới; mạng máy tính",
+    "phrase": "computer network",
+    "example": "The devices communicate over a computer network."
+  },
+  {
+    "word": "process",
+    "ipa": "/ˈprəʊses/",
+    "meaning": "quy trình; xử lý",
+    "phrase": "control process",
+    "example": "The controller monitors the process."
+  },
+  {
+    "word": "program",
+    "ipa": "/ˈprəʊɡræm/",
+    "meaning": "chương trình; lập trình",
+    "phrase": "write a program",
+    "example": "We write a program for the PLC."
+  },
+  {
+    "word": "sensor",
+    "ipa": "/ˈsensə/",
+    "meaning": "cảm biến",
+    "phrase": "temperature sensor",
+    "example": "A temperature sensor measures heat."
+  },
+  {
+    "word": "signal",
+    "ipa": "/ˈsɪɡnəl/",
+    "meaning": "tín hiệu",
+    "phrase": "digital signal",
+    "example": "The controller reads a digital signal."
+  },
+  {
+    "word": "system",
+    "ipa": "/ˈsɪstəm/",
+    "meaning": "hệ thống",
+    "phrase": "control system",
+    "example": "The control system keeps the temperature stable."
+  },
+  {
+    "word": "voltage",
+    "ipa": "/ˈvəʊltɪdʒ/",
+    "meaning": "điện áp",
+    "phrase": "measure voltage",
+    "example": "The technician checks the voltage first."
+  },
+  {
+    "word": "efficient",
+    "ipa": "/ɪˈfɪʃənt/",
+    "meaning": "hiệu quả; tiết kiệm",
+    "phrase": "energy-efficient",
+    "example": "An energy-efficient motor saves electricity."
+  },
+  {
+    "word": "reliable",
+    "ipa": "/rɪˈlaɪəbl/",
+    "meaning": "đáng tin cậy",
+    "phrase": "reliable system",
+    "example": "A reliable system runs with fewer failures."
+  },
+  {
+    "word": "safety",
+    "ipa": "/ˈseɪfti/",
+    "meaning": "an toàn",
+    "phrase": "safety rules",
+    "example": "Always follow the safety rules in the lab."
+  }
+]
